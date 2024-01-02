@@ -2,7 +2,7 @@
 
 class User
 {
-  // Atributes 
+  // Attributes 
   private $id;
   private $name;
   private $surename;

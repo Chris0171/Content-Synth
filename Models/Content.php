@@ -2,7 +2,7 @@
 
 class Content
 {
-  // Atributes 
+  // Attributes 
   private $id;
   private $name;
   private $argument;
@@ -15,7 +15,7 @@ class Content
   {
 
   }
-  public function __construct2(int $id, string $name, string $argument, string $coverPath, string $whereLink, array $platforms)
+  public function __construct2(int $id, string $name, string $argument, string $coverPath, array $whereLink, array $platforms)
   {
     // Initialization
     $this->id = $id;
@@ -25,7 +25,7 @@ class Content
     $this->whereLink = $whereLink;
     $this->platforms = $platforms;
   }
-  public function __construct3(string $name, string $argument, string $coverPath, string $whereLink, array $platforms)
+  public function __construct3(string $name, string $argument, string $coverPath, array $whereLink, array $platforms)
   {
     // Initialization
     $this->name = $name;
@@ -80,7 +80,7 @@ class Content
   {
     return $this->whereLink;
   }
-  public function setWhereLink(string $whereLink)
+  public function setWhereLink(array $whereLink)
   {
     $this->whereLink = $whereLink;
 
@@ -90,7 +90,7 @@ class Content
   {
     return $this->platforms;
   }
-  public function setPlatforms(string $platforms)
+  public function setPlatforms(array $platforms)
   {
     $this->platforms = $platforms;
 
