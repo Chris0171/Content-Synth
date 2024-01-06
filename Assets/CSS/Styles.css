@@ -1,0 +1,8 @@
+.profileBtn {
+  border-radius: 50%;
+  border: 2px solid gray;
+}
+
+.profileDd {
+  display: none;
+}

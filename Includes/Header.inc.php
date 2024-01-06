@@ -22,8 +22,8 @@
       <nav class="navbar-nav ms-auto me-2 me-md-3">
         <a class="nav-link ms-4 fw-bold" href="#">INICIAR SESIÓN</a>
         <!-- Dropdown menu -->
-        <div class="dropdown dropstart ps-2" style="display: none;">
-          <button class="btn p-0" style="border-radius: 50%; border: 2px solid gray;" type="button"
+        <div class="dropdown dropstart ps-2 profileDd">
+          <button class="btn p-0 profileBtn" type="button"
             data-bs-toggle="dropdown" aria-expanded="false">
             <img class="img-fluid p-0" style="border-radius: 50%;max-width: 37px;" src="" alt="Tu foto de perfil">
           </button>
