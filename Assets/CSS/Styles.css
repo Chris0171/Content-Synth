@@ -1,10 +1,17 @@
 body {
   background-color: gray;
-  background-image: url("../Images/Wallpaper_desktop.jpg");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-attachment: fixed;
+  background: url("../Images/Wallpaper_desktop.jpg") no-repeat center center fixed;
   background-size: cover;
+}
+
+.bgNav {
+  background-color: #343a40;
+  background-image: linear-gradient(to bottom, #6f315e, #381744);
+  color: white;
+}
+
+.bgDropdown {
+  background-image: linear-gradient(to bottom, #6f315e, #381744);
 }
 
 .profileBtn {
@@ -12,13 +19,27 @@ body {
   border: 2px solid gray;
 }
 
+.textGradient {
+  background: linear-gradient(to bottom, #6f315e, #381744);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
 .profileDd {
   display: none;
 }
 
-
 @media screen and (max-width: 576px) {
   body {
     background-image: url("../Images/Wallpaper_phone.jpg");
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .bgDropdown {
+    background-image: linear-gradient(to bottom, #4b3b47, #2e1e28);
+    box-shadow: 1px 1px 12px rgb(27, 27, 27);
+
   }
 }
